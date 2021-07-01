@@ -10,6 +10,10 @@ djangorestframework = "*"
 djangorestframework-camel-case = "*"
 pylint = "*"
 psycopg2-binary = "*"
+python-dotenv = "*"
+dj-database-url = "*"
+django-cors-headers = "*"
+django-on-heroku = "*"
 
 [dev-packages]
 
