@@ -3,9 +3,11 @@
 
 by [Raphaëlle Charrier](https://github.com/RaphaelleC) and [Anthony Graham](https://github.com/databoy5000/).
 
+[Link to the client repository.](https://github.com/RaphaelleC/project-4-client)
+
 WoCRO is an app for Help-seekers and NGOs to log major world crises into one place and to collaborate efficently on solving them.
 
-![Homepage](./screenshots/Homepage.png)
+<img src="./screenshots/Homepage.png" alt="homepage" />
 
 ## Contents
 
@@ -26,8 +28,8 @@ WoCRO is an app for Help-seekers and NGOs to log major world crises into one pla
 * **Consume your API with a separate front-end** built with React
 * **Be a complete product** which most likely means multiple relationships and CRUD functionality for at least a couple of models
 * **Implement thoughtful user stories/wireframes** that are significant enough to help you know which features are core MVP and which you can cut
-* **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers. **ALLOW** time for this.
-* **Be deployed online** so it's publicly accessible.
+* **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers. **ALLOW** time for this
+* **Be deployed online** so it's publicly accessible
 
 ## Approach
 
@@ -37,7 +39,7 @@ To guarantee continuity during the project build, we established the following e
 
 (Sample of the main specifications tab)
 <center>
-  <img src="./screenshots/PM_Specs.png" alt="App Specifications" width="700">
+  <img src="./screenshots/PM_Specs.png" alt="App Specifications" />
 </center><br>
 
 Then, we defined the following milestones:
@@ -54,7 +56,11 @@ Then, we defined the following milestones:
 6. Final tests to validate app flow and design finishing
 7. Backend & Frontend deployment
 
-During the <ins>build cycle</ins>, we worked our way linearly from the back-end to the front-end, clearly defining tasks (one or multiple complete features per task) between team members to work through them separately in order to have minimum overlap, avoiding merge conflicts and/or work being done twice.
+During the <ins>build cycle</ins>, we worked our way linearly from the back-end to the front-end, clearly defining tasks (one or multiple complete features per task) between us to work through them separately in order to have minimum overlap, avoiding merge conflicts and/or work being done twice.
+
+For the back end, I was in charge of implementing the authorization part, which is everything user related (user model, register and login views, user serializer).
+
+For the front end, I also developped the user features (register and login forms), as well as the create NGO resources form, and the implementation of Mapbox and Cloudinary.
 
 ## Technologies Used
 
@@ -396,8 +402,8 @@ export default ImageUpload
 ## Key Learnings
 
 * Better understanding of the django restframework app
-* Basic knowlegde of MapGL
-* Basic knowlege of Cloudinary
+* Basic knowledge of MapGL
+* Basic knowledge of Cloudinary
 * Consolidation of my React skills
 
 ## Achievements
@@ -408,7 +414,9 @@ export default ImageUpload
 
 ## Challenges
 
-The biggest challenges we've encountered on this project were writing down a clear and simple ERD, as well as implementing it in our back end; dealing with the 2 different user types; not getting lost with all the relationships our datas have; coming up with a general idea of our website's layout.
+The biggest challenges we've encountered on this project were writing down a clear and simple ERD, as well as implementing it in our back end. All the different relationships were difficult to implement at first.<br> 
+Having to deal with 2 different users to put into a single user type took some time to manage and to figure out but I'm really happy with how I handled it.<br>
+Coming up with a general idea of our website's layout also took some time to think and test different styles and possibilities, although we knew that we wanted a sober and not extravagant look.
 
 ## Conclusions
 
