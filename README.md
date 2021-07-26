@@ -46,15 +46,15 @@ Then, we defined the following milestones:
 1. Establish database collections, their relationships and validated diagram.
 2. Define API endpoints.
 3. Construct wireframes.
-4. Build cycle
-    - Task planning/coordinating
-    - Code
-    - Test
-    - Fix errors
-    - Push working feature to GitHub
-5. Syle completed components/pages
-6. Final tests to validate app flow and design finishing
-7. Backend & Frontend deployment
+4. Build cycle :
+    - Task planning/coordinating.
+    - Code.
+    - Test.
+    - Fix errors.
+    - Push working feature to GitHub.
+5. Style completed components/pages.
+6. Final tests to validate app flow and design finishing.
+7. Backend & Frontend deployment.
 
 During the <ins>build cycle</ins>, we worked our way linearly from the back-end to the front-end, clearly defining tasks (one or multiple complete features per task) between us to work through them separately in order to have minimum overlap, avoiding merge conflicts and/or work being done twice.
 
@@ -401,16 +401,15 @@ export default ImageUpload
 
 ## Key Learnings
 
-* Better understanding of the django restframework app
-* Basic knowledge of MapGL
-* Basic knowledge of Cloudinary
-* Consolidation of my React skills
+* Better understanding of django restframework and PostgreSQL : to put these technologies into practice in a concrete project helped me understand how they work. It took a bit more time than for Mongo and Express as they use Python. The naming conventions and the logic behind the back end is also different but I managed to understand and differentiate them.
+* Basic knowledge of MapGL and Cloudinary : as I implemented these two functionalities, I understand how they work for a simple usage. 
+* Consolidation of my React skills : I am more confident with using React and creating a nice front end. This project has been the most complicated I've done so far. It has more pages and links between them, more relationships than the previous project I worked on. 
 
 ## Achievements
 
-* Handled a double user app
-* Handle complex relationships between different models
-* Professional design
+* Handled a double user app : I think this is one of the tings I am the most proud of in this project. It's the firt time I had to implement two user types in an app, while using Python, Django and PostgreSQL for the first time as well.
+* Handle complex relationships between different models : creating an easy-to-read ERD has been trickier than we first expected, but we managed to get a nice one eventually.
+* Professional design : I spent a lot of time working on the styling and appearance of our app. I am thankful that we decided to use Bootstrap as it has a very nice library which is easy to follow.
 
 ## Challenges
 
