@@ -407,7 +407,7 @@ export default ImageUpload
 
 ## Achievements
 
-* Handled a double user app : I think this is one of the tings I am the most proud of in this project. It's the firt time I had to implement two user types in an app, while using Python, Django and PostgreSQL for the first time as well.
+* Handled a double user app : I think this is one of the things I am the most proud of in this project. It's the first time I had to implement two user types in an app, while using Python, Django and PostgreSQL for the first time as well.
 * Handle complex relationships between different models : creating an easy-to-read ERD has been trickier than we first expected, but we managed to get a nice one eventually.
 * Professional design : I spent a lot of time working on the styling and appearance of our app. I am thankful that we decided to use Bootstrap as it has a very nice library which is easy to follow.
 
